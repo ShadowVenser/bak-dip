@@ -1,0 +1,20 @@
+{
+  "name": "scala-cli",
+  "argv": [
+    "/usr/share/scala/scala-cli",
+    "bsp",
+    "--json-options",
+    "/home/venser/Рабочий стол/bak-dip/chisel/.scala-build/ide-options-v2.json",
+    "--json-launcher-options",
+    "/home/venser/Рабочий стол/bak-dip/chisel/.scala-build/ide-launcher-options.json",
+    "--envs-file",
+    "/home/venser/Рабочий стол/bak-dip/chisel/.scala-build/ide-envs.json",
+    "/home/venser/Рабочий стол/bak-dip/chisel/median.scala"
+  ],
+  "version": "1.7.1",
+  "bspVersion": "2.1.1",
+  "languages": [
+    "scala",
+    "java"
+  ]
+}

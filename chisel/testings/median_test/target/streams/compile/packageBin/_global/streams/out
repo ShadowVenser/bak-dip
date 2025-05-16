@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/venser/Рабочий стол/bak-dip/chisel/testings/median_test/target/scala-2.13/median_test_2.13-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/venser/Рабочий стол/bak-dip/chisel/testings/median_test/target/scala-2.13/classes/Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/venser/Рабочий стол/bak-dip/chisel/testings/median_test/target/scala-2.13/classes/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	median.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/venser/Рабочий стол/bak-dip/chisel/testings/median_test/target/scala-2.13/classes/median.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/venser/Рабочий стол/bak-dip/chisel/testings/median_test/target/scala-2.13/classes/Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
