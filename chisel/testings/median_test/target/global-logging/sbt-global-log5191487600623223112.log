@@ -1,0 +1,5 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test /EmitVcd, Some(75dd9b46-7175-4767-a5d7-9b123ea728cf), Some(CommandSource(console0)))[0m
+[0m[[0m[31merror[0m] [0m[0mNot a valid key: EmitVcd[0m
+[0m[[0m[31merror[0m] [0m[0mtest /EmitVcd[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

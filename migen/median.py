@@ -1,8 +1,5 @@
 from migen import *
 from migen.fhdl import verilog
-from functools import reduce
-from random import randint
-import statistics
 
 class median(Module):
 
@@ -87,26 +84,4 @@ class median(Module):
 if (__name__ == "__main__"):
     
     dut = median()
-
-    # def arr_to_num(arr):
-    #     return reduce(lambda a, b: (a << 8) + b, arr)
-    
-
-    # def tb():
-    #     for i in range(10):
-    #         try:
-    #             data = [randint(0, 255) for j in range(9)]
-    #             ans = statistics.median(data)
-    #             yield dut.arr.eq(arr_to_num(data))
-    #             yield
-    #             med = yield dut.med
-    #             assert med == ans
-    #             print(f'{i+1}. Correct!')
-    #         except AssertionError as _:
-    #             print(f'{i+1}. Error: data: {data}: correct: {ans}; current: {med}')
-            
-
-
-    # run_simulation(dut, tb())
-
     print(verilog.convert(dut, {dut.arr, dut.med}, name='median'))

@@ -1,3 +1,22 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(MedianTest, org.scalatest.tools.Framework$$anon$1@3966acc4, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ChiselTest, org.scalatest.tools.Framework$$anon$1@2703b5e1, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(MedianTest, org.scalatest.tools.Framework$$anon$1@2703b5e1, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mChiselTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mMedianTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mMedian[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- test 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- test 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- test 3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- test 4[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- test 5[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- test 6[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- test 7[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- test 8[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- test 9[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 49 seconds, 805 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 9[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 9, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MedianTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ChiselTest[0m

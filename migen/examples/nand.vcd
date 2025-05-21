@@ -1,0 +1,43 @@
+$var wire 1 ! nandgate_x1 $end
+$var wire 1 " nandgate_x2 $end
+$var wire 1 # nandgate_y $end
+$var wire 1 $ nandgate $end
+$var wire 1 % sys_clk $end
+$dumpvars
+$end
+#0
+0!
+0"
+0#
+0$
+0%
+1#
+#5
+1%
+#10
+0%
+#15
+1!
+1%
+#20
+0%
+#25
+0!
+1"
+1%
+#30
+0%
+#35
+1!
+1%
+0#
+1$
+#40
+0%
+#45
+1%
+0!
+0"
+0#
+0$
+0%

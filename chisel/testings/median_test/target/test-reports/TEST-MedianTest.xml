@@ -1,144 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testsuite hostname="venser-Lenovo-Y70-70-Touch" name="MedianTest" tests="1" errors="0" failures="1" skipped="0" time="130.715" timestamp="2025-05-15T15:32:03">
+<testsuite hostname="venser-Lenovo-Y70-70-Touch" name="MedianTest" tests="9" errors="0" failures="0" skipped="0" time="36.316" timestamp="2025-05-21T22:03:03">
           <properties>
-      <property name="jline.esc.timeout" value="0"/><property name="jna.platform.library.path" value="/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib64:/lib64:/usr/lib:/lib:/lib/i386-linux-gnu:/lib32:/usr/lib/x86_64-linux-gnu/libfakeroot"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="sun.boot.library.path" value="/home/venser/.sdkman/candidates/java/8.0.442-tem/jre/lib/amd64"/><property name="java.vm.version" value="25.442-b06"/><property name="ftp.proxyHost" value="127.0.0.1"/><property name="java.vm.vendor" value="Temurin"/><property name="java.vendor.url" value="https://adoptium.net/"/><property name="path.separator" value=":"/><property name="jna.loaded" value="true"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="RU"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value="unknown"/><property name="jna.nosys" value="true"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="/home/venser/bak-dip/chisel/testings/median_test"/><property name="java.runtime.version" value="1.8.0_442-b06"/><property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/><property name="java.endorsed.dirs" value="/home/venser/.sdkman/candidates/java/8.0.442-tem/jre/lib/endorsed"/><property name="os.arch" value="amd64"/><property name="java.io.tmpdir" value="/tmp"/><property name="line.separator" value="
-"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="log4j.ignoreTCL" value="true"/><property name="https.proxyHost" value="127.0.0.1"/><property name="os.name" value="Linux"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/home/venser/.cache/JNA/temp/jna5511220913686552768.tmp"/><property name="http.proxyPort" value="2080"/><property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sbt.ipcsocket.tmpdir" value="/run/user/1000/.sbt7122807d/ipcsocket"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="6.11.0-25-generic"/><property name="swoval.tmpdir" value="/run/user/1000/.sbt7122807d/swoval"/><property name="user.home" value="/home/venser"/><property name="user.timezone" value="Europe/Moscow"/><property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.8"/><property name="java.class.path" value="/home/venser/.sdkman/candidates/sbt/1.10.7/bin/sbt-launch.jar"/><property name="user.name" value="venser"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="/home/venser/.sdkman/candidates/sbt/1.10.7/bin/sbt-launch.jar test"/><property name="java.home" value="/home/venser/.sdkman/candidates/java/8.0.442-tem/jre"/><property name="sun.arch.data.model" value="64"/><property name="ftp.proxyPort" value="2080"/><property name="user.language" value="ru"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.awt.X11.XToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_442"/><property name="java.ext.dirs" value="/home/venser/.sdkman/candidates/java/8.0.442-tem/jre/lib/ext:/usr/java/packages/lib/ext"/><property name="http.proxyHost" value="127.0.0.1"/><property name="sun.boot.class.path" value="/home/venser/.sdkman/candidates/java/8.0.442-tem/jre/lib/resources.jar:/home/venser/.sdkman/candidates/java/8.0.442-tem/jre/lib/rt.jar:/home/venser/.sdkman/candidates/java/8.0.442-tem/jre/lib/sunrsasign.jar:/home/venser/.sdkman/candidates/java/8.0.442-tem/jre/lib/jsse.jar:/home/venser/.sdkman/candidates/java/8.0.442-tem/jre/lib/jce.jar:/home/venser/.sdkman/candidates/java/8.0.442-tem/jre/lib/charsets.jar:/home/venser/.sdkman/candidates/java/8.0.442-tem/jre/lib/jfr.jar:/home/venser/.sdkman/candidates/java/8.0.442-tem/jre/classes"/><property name="java.vendor" value="Temurin"/><property name="java.specification.maintenance.version" value="6"/><property name="file.separator" value="/"/><property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.cpu.endian" value="little"/><property name="https.proxyPort" value="2080"/><property name="sbt.script" value="/home/venser/.sdkman/candidates/sbt/current/bin/sbt"/><property name="sun.desktop" value="gnome"/><property name="sun.cpu.isalist" value=""/>
+      <property name="jline.esc.timeout" value="0"/><property name="jna.platform.library.path" value="/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib64:/lib64:/usr/lib:/lib:/lib/i386-linux-gnu:/lib32:/usr/lib/x86_64-linux-gnu/libfakeroot"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="sun.boot.library.path" value="/home/venser/.sdkman/candidates/java/8.0.442-tem/jre/lib/amd64"/><property name="java.vm.version" value="25.442-b06"/><property name="java.vm.vendor" value="Temurin"/><property name="java.vendor.url" value="https://adoptium.net/"/><property name="path.separator" value=":"/><property name="jna.loaded" value="true"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="RU"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value="unknown"/><property name="jna.nosys" value="true"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="/home/venser/bak-dip/chisel/testings/median_test"/><property name="java.runtime.version" value="1.8.0_442-b06"/><property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/><property name="java.endorsed.dirs" value="/home/venser/.sdkman/candidates/java/8.0.442-tem/jre/lib/endorsed"/><property name="os.arch" value="amd64"/><property name="java.io.tmpdir" value="/tmp"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="log4j.ignoreTCL" value="true"/><property name="os.name" value="Linux"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/home/venser/.cache/JNA/temp/jna1031902929676182614.tmp"/><property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sbt.ipcsocket.tmpdir" value="/run/user/1000/.sbt7122807d/ipcsocket"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="6.11.0-25-generic"/><property name="swoval.tmpdir" value="/run/user/1000/.sbt7122807d/swoval"/><property name="user.home" value="/home/venser"/><property name="user.timezone" value="Europe/Moscow"/><property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.8"/><property name="java.class.path" value="/home/venser/.sdkman/candidates/sbt/1.10.7/bin/sbt-launch.jar"/><property name="user.name" value="venser"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="/home/venser/.sdkman/candidates/sbt/1.10.7/bin/sbt-launch.jar"/><property name="java.home" value="/home/venser/.sdkman/candidates/java/8.0.442-tem/jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="ru"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.awt.X11.XToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_442"/><property name="java.ext.dirs" value="/home/venser/.sdkman/candidates/java/8.0.442-tem/jre/lib/ext:/usr/java/packages/lib/ext"/><property name="sun.boot.class.path" value="/home/venser/.sdkman/candidates/java/8.0.442-tem/jre/lib/resources.jar:/home/venser/.sdkman/candidates/java/8.0.442-tem/jre/lib/rt.jar:/home/venser/.sdkman/candidates/java/8.0.442-tem/jre/lib/sunrsasign.jar:/home/venser/.sdkman/candidates/java/8.0.442-tem/jre/lib/jsse.jar:/home/venser/.sdkman/candidates/java/8.0.442-tem/jre/lib/jce.jar:/home/venser/.sdkman/candidates/java/8.0.442-tem/jre/lib/charsets.jar:/home/venser/.sdkman/candidates/java/8.0.442-tem/jre/lib/jfr.jar:/home/venser/.sdkman/candidates/java/8.0.442-tem/jre/classes"/><property name="java.vendor" value="Temurin"/><property name="java.specification.maintenance.version" value="6"/><property name="file.separator" value="/"/><property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.cpu.endian" value="little"/><property name="sbt.script" value="/home/venser/.sdkman/candidates/sbt/current/bin/sbt"/><property name="sun.desktop" value="gnome"/><property name="sun.cpu.isalist" value=""/>
     </properties>
-          <testcase classname="MedianTest" name="Median test 1}" time="130.715">
-                      <failure message="make: вход в каталог «/home/venser/bak-dip/chisel/testings/median_test/build/chiselsim/MedianTest/Median/test-1}/workdir-verilator»
-ls . | grep -v Makefile | grep -v execution-script.txt | xargs rm -rf
-\
-/usr/bin/verilator \
-	'--cc' \
-	'--exe' \
-	'--build' \
-	'-j' \
-	'0' \
-	'-o' \
-	'../simulation' \
-	'--top-module' \
-	'svsimTestbench' \
-	'--Mdir' \
-	'verilated-sources' \
-	'--assert' \
-	'+incdir+/home/venser/bak-dip/chisel/testings/median_test/build/chiselsim/MedianTest/Median/test-1}/primary-sources' \
-	'-CFLAGS' \
-	'-std=c++14 -I/home/venser/bak-dip/chisel/testings/median_test/build/chiselsim/MedianTest/Median/test-1}/workdir-verilator -DSVSIM_ENABLE_VERILATOR_SUPPORT' \
-	'+define+RANDOMIZE_REG_INIT' \
-	'+define+RANDOMIZE_MEM_INIT' \
-	'+define+RANDOMIZE_DELAY=1' \
-	'+define+RANDOM=$urandom' \
-	'../primary-sources/Median.sv' '../primary-sources/verification/assert/layers-Median-Verification-Assert.sv' '../primary-sources/verification/cover/layers-Median-Verification-Cover.sv' '../primary-sources/verification/assume/layers-Median-Verification-Assume.sv' '../primary-sources/verification/layers-Median-Verification.sv' 'testbench.sv' '../generated-sources/simulation-driver.cpp' '../generated-sources/c-dpi-bridge.cpp'
-%Error: Internal Error: ../V3File.h:162: : verilated-sources/VsvsimTestbench___024root__DepSet_hb8c279e6__0__Slow.cpp: Underflow of indentation
-                        ... See the manual at https://verilator.org/verilator_doc.html for more assistance.
-%Error: Verilator threw signal 2. Suggest trying --debug --gdbbt
-%Error: Command Failed ulimit -s unlimited 2&gt;/dev/null; exec /usr/bin/verilator_bin --cc --exe --build -j 0 -o ../simulation --top-module svsimTestbench --Mdir verilated-sources --assert +incdir+/home/venser/bak-dip/chisel/testings/median_test/build/chiselsim/MedianTest/Median/test-1\}/primary-sources -CFLAGS -std=c++14\ -I/home/venser/bak-dip/chisel/testings/median_test/build/chiselsim/MedianTest/Median/test-1\}/workdir-verilator\ -DSVSIM_ENABLE_VERILATOR_SUPPORT +define+RANDOMIZE_REG_INIT +define+RANDOMIZE_MEM_INIT +define+RANDOMIZE_DELAY=1 +define+RANDOM=\$urandom ../primary-sources/Median.sv ../primary-sources/verification/assert/layers-Median-Verification-Assert.sv ../primary-sources/verification/cover/layers-Median-Verification-Cover.sv ../primary-sources/verification/assume/layers-Median-Verification-Assume.sv ../primary-sources/verification/layers-Median-Verification.sv testbench.sv ../generated-sources/simulation-driver.cpp ../generated-sources/c-dpi-bridge.cpp
-make: *** [Makefile:12: simulation] Ошибка 255" type="java.lang.Exception">java.lang.Exception: make: вход в каталог «/home/venser/bak-dip/chisel/testings/median_test/build/chiselsim/MedianTest/Median/test-1}/workdir-verilator»
-ls . | grep -v Makefile | grep -v execution-script.txt | xargs rm -rf
-\
-/usr/bin/verilator \
-	'--cc' \
-	'--exe' \
-	'--build' \
-	'-j' \
-	'0' \
-	'-o' \
-	'../simulation' \
-	'--top-module' \
-	'svsimTestbench' \
-	'--Mdir' \
-	'verilated-sources' \
-	'--assert' \
-	'+incdir+/home/venser/bak-dip/chisel/testings/median_test/build/chiselsim/MedianTest/Median/test-1}/primary-sources' \
-	'-CFLAGS' \
-	'-std=c++14 -I/home/venser/bak-dip/chisel/testings/median_test/build/chiselsim/MedianTest/Median/test-1}/workdir-verilator -DSVSIM_ENABLE_VERILATOR_SUPPORT' \
-	'+define+RANDOMIZE_REG_INIT' \
-	'+define+RANDOMIZE_MEM_INIT' \
-	'+define+RANDOMIZE_DELAY=1' \
-	'+define+RANDOM=$urandom' \
-	'../primary-sources/Median.sv' '../primary-sources/verification/assert/layers-Median-Verification-Assert.sv' '../primary-sources/verification/cover/layers-Median-Verification-Cover.sv' '../primary-sources/verification/assume/layers-Median-Verification-Assume.sv' '../primary-sources/verification/layers-Median-Verification.sv' 'testbench.sv' '../generated-sources/simulation-driver.cpp' '../generated-sources/c-dpi-bridge.cpp'
-%Error: Internal Error: ../V3File.h:162: : verilated-sources/VsvsimTestbench___024root__DepSet_hb8c279e6__0__Slow.cpp: Underflow of indentation
-                        ... See the manual at https://verilator.org/verilator_doc.html for more assistance.
-%Error: Verilator threw signal 2. Suggest trying --debug --gdbbt
-%Error: Command Failed ulimit -s unlimited 2&gt;/dev/null; exec /usr/bin/verilator_bin --cc --exe --build -j 0 -o ../simulation --top-module svsimTestbench --Mdir verilated-sources --assert +incdir+/home/venser/bak-dip/chisel/testings/median_test/build/chiselsim/MedianTest/Median/test-1\}/primary-sources -CFLAGS -std=c++14\ -I/home/venser/bak-dip/chisel/testings/median_test/build/chiselsim/MedianTest/Median/test-1\}/workdir-verilator\ -DSVSIM_ENABLE_VERILATOR_SUPPORT +define+RANDOMIZE_REG_INIT +define+RANDOMIZE_MEM_INIT +define+RANDOMIZE_DELAY=1 +define+RANDOM=\$urandom ../primary-sources/Median.sv ../primary-sources/verification/assert/layers-Median-Verification-Assert.sv ../primary-sources/verification/cover/layers-Median-Verification-Cover.sv ../primary-sources/verification/assume/layers-Median-Verification-Assume.sv ../primary-sources/verification/layers-Median-Verification.sv testbench.sv ../generated-sources/simulation-driver.cpp ../generated-sources/c-dpi-bridge.cpp
-make: *** [Makefile:12: simulation] Ошибка 255
-	at svsim.Workspace.compile(Workspace.scala:510)
-	at chisel3.simulator.SimulatorAPI.simulateRaw(SimulatorAPI.scala:55)
-	at chisel3.simulator.SimulatorAPI.simulateRaw$(SimulatorAPI.scala:33)
-	at MedianTest.simulateRaw(MedianTest.scala:8)
-	at MedianTest.$anonfun$new$3(MedianTest.scala:26)
-	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
-	at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
-	at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)
-	at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
-	at org.scalatest.Transformer.apply(Transformer.scala:22)
-	at org.scalatest.Transformer.apply(Transformer.scala:20)
-	at org.scalatest.funspec.AnyFunSpecLike$$anon$1.apply(AnyFunSpecLike.scala:521)
-	at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)
-	at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)
-	at MedianTest.chisel3$testing$scalatest$HasConfigMap$$super$withFixture(MedianTest.scala:8)
-	at chisel3.testing.scalatest.HasConfigMap.$anonfun$withFixture$1(HasConfigMap.scala:37)
-	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:59)
-	at chisel3.testing.scalatest.HasConfigMap.withFixture(HasConfigMap.scala:37)
-	at chisel3.testing.scalatest.HasConfigMap.withFixture$(HasConfigMap.scala:35)
-	at MedianTest.chisel3$testing$scalatest$TestingDirectory$$super$withFixture(MedianTest.scala:8)
-	at chisel3.testing.scalatest.TestingDirectory.$anonfun$withFixture$1(WithTestingDirectory.scala:46)
-	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:59)
-	at chisel3.testing.scalatest.TestingDirectory.withFixture(WithTestingDirectory.scala:46)
-	at chisel3.testing.scalatest.TestingDirectory.withFixture$(WithTestingDirectory.scala:44)
-	at MedianTest.withFixture(MedianTest.scala:8)
-	at org.scalatest.funspec.AnyFunSpecLike.invokeWithFixture$1(AnyFunSpecLike.scala:519)
-	at org.scalatest.funspec.AnyFunSpecLike.$anonfun$runTest$1(AnyFunSpecLike.scala:531)
-	at org.scalatest.SuperEngine.runTestImpl(Engine.scala:306)
-	at org.scalatest.funspec.AnyFunSpecLike.runTest(AnyFunSpecLike.scala:531)
-	at org.scalatest.funspec.AnyFunSpecLike.runTest$(AnyFunSpecLike.scala:513)
-	at org.scalatest.funspec.AnyFunSpec.runTest(AnyFunSpec.scala:1632)
-	at org.scalatest.funspec.AnyFunSpecLike.$anonfun$runTests$1(AnyFunSpecLike.scala:564)
-	at org.scalatest.SuperEngine.$anonfun$runTestsInBranch$1(Engine.scala:413)
-	at scala.collection.immutable.List.foreach(List.scala:334)
-	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:401)
-	at org.scalatest.SuperEngine.runTestsInBranch(Engine.scala:390)
-	at org.scalatest.SuperEngine.$anonfun$runTestsInBranch$1(Engine.scala:427)
-	at scala.collection.immutable.List.foreach(List.scala:334)
-	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:401)
-	at org.scalatest.SuperEngine.runTestsInBranch(Engine.scala:396)
-	at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:475)
-	at org.scalatest.funspec.AnyFunSpecLike.runTests(AnyFunSpecLike.scala:564)
-	at org.scalatest.funspec.AnyFunSpecLike.runTests$(AnyFunSpecLike.scala:563)
-	at org.scalatest.funspec.AnyFunSpec.runTests(AnyFunSpec.scala:1632)
-	at org.scalatest.Suite.run(Suite.scala:1114)
-	at org.scalatest.Suite.run$(Suite.scala:1096)
-	at org.scalatest.funspec.AnyFunSpec.org$scalatest$funspec$AnyFunSpecLike$$super$run(AnyFunSpec.scala:1632)
-	at org.scalatest.funspec.AnyFunSpecLike.$anonfun$run$1(AnyFunSpecLike.scala:568)
-	at org.scalatest.SuperEngine.runImpl(Engine.scala:535)
-	at org.scalatest.funspec.AnyFunSpecLike.run(AnyFunSpecLike.scala:568)
-	at org.scalatest.funspec.AnyFunSpecLike.run$(AnyFunSpecLike.scala:567)
-	at org.scalatest.funspec.AnyFunSpec.run(AnyFunSpec.scala:1632)
-	at org.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:321)
-	at org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:517)
-	at sbt.TestRunner.runTest$1(TestFramework.scala:153)
-	at sbt.TestRunner.run(TestFramework.scala:168)
-	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.$anonfun$apply$1(TestFramework.scala:336)
-	at sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:296)
-	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:336)
-	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:336)
-	at sbt.TestFunction.apply(TestFramework.scala:348)
-	at sbt.Tests$.$anonfun$toTask$1(Tests.scala:436)
-	at sbt.std.Transform$$anon$3.$anonfun$apply$2(Transform.scala:47)
-	at sbt.std.Transform$$anon$4.work(Transform.scala:69)
-	at sbt.Execute.$anonfun$submit$2(Execute.scala:283)
-	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:24)
-	at sbt.Execute.work(Execute.scala:292)
-	at sbt.Execute.$anonfun$submit$1(Execute.scala:283)
-	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
-	at sbt.CompletionService$$anon$2.call(CompletionService.scala:65)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:750)
-</failure>
+          <testcase classname="MedianTest" name="Median test 1" time="4.275">
+                      
+                    </testcase><testcase classname="MedianTest" name="Median test 2" time="3.69">
+                      
+                    </testcase><testcase classname="MedianTest" name="Median test 3" time="3.826">
+                      
+                    </testcase><testcase classname="MedianTest" name="Median test 4" time="4.052">
+                      
+                    </testcase><testcase classname="MedianTest" name="Median test 5" time="4.496">
+                      
+                    </testcase><testcase classname="MedianTest" name="Median test 6" time="4.071">
+                      
+                    </testcase><testcase classname="MedianTest" name="Median test 7" time="4.037">
+                      
+                    </testcase><testcase classname="MedianTest" name="Median test 8" time="3.845">
+                      
+                    </testcase><testcase classname="MedianTest" name="Median test 9" time="4.024">
+                      
                     </testcase>
           <system-out><![CDATA[]]></system-out>
           <system-err><![CDATA[]]></system-err>

@@ -1,0 +1,24 @@
+0< r ready
+1> S 0 6
+1< k ack
+2> S 1 7
+2< k ack
+3> S 2 8
+3< k ack
+4> S 3 0
+4< k ack
+5> S 4 1
+5< k ack
+6> S 5 2
+6< k ack
+7> S 6 3
+7< k ack
+8> S 7 4
+8< k ack
+9> S 8 5
+9< k ack
+10> R 0
+10< k ack
+11> G u 9
+11< b 00000008 04
+12> D

@@ -23,10 +23,8 @@ class MedianTest extends AnyFunSpec with ChiselSim {
     for (arr <- arrays) {
       it(s"test ${arr(0)+1}") {
 
-        simulateRaw(new Median) { dut =>
-          // Poke different values on the two input ports.
+        simulateRaw(new Median).withAnnotations(Seq(WriteVcdAnnotation)) { dut =>
           arrToDut(arr, dut)
-          // Expect that the sum of the two inputs is on the output port.
           dut.med.expect(4)
         }
 

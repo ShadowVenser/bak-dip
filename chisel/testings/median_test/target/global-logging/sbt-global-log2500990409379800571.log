@@ -1,0 +1,18 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(3af7f953-9ff9-4c2e-8cd1-bee68b47ae7e), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/venser/bak-dip/chisel/testings/median_test/target/scala-2.13/test-classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/venser/bak-dip/chisel/testings/median_test/src/test/scala/MedianTest.scala:26:20: missing argument list for method simulateRaw in trait SimulatorAPI[0m
+[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
+[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `simulateRaw _` or `simulateRaw(_,_,_,_,_)(_)(_,_,_,_,_,_)` instead of `simulateRaw`.[0m
+[0m[[0m[31merror[0m] [0m[0m        simulateRaw(new Median).withAnnotations(Seq(WriteVcdAnnotation)) { dut =>[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/venser/bak-dip/chisel/testings/median_test/src/test/scala/MedianTest.scala:26:53: not found: value WriteVcdAnnotation[0m
+[0m[[0m[31merror[0m] [0m[0m        simulateRaw(new Median).withAnnotations(Seq(WriteVcdAnnotation)) { dut =>[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed 21.05.2025 22:09:08[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m
