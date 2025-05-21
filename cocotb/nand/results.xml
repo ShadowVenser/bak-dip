@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1747866232" />
+    <testcase name="test_nand_and_plot" classname="nand_tb" file="/home/venser/bak-dip/cocotb/nand/nand_tb.py" lineno="6" time="11.557268142700195" sim_time_ns="20.001" ratio_time="1.730599286357567" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1747869100" />
+    <testcase name="median_tb" classname="median_tb" file="/home/venser/bak-dip/cocotb/median/median_tb.py" lineno="9" time="76.42515897750854" sim_time_ns="806.255" ratio_time="10.549601869160336" />
+  </testsuite>
+</testsuites>
