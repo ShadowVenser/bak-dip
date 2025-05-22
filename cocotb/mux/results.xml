@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1747918151" />
+    <testcase name="mux_tb" classname="mux_tb" file="/home/venser/bak-dip/cocotb/mux/mux_tb.py" lineno="6" time="0.003292083740234375" sim_time_ns="0.126" ratio_time="38.2736315179606" />
+  </testsuite>
+</testsuites>
