@@ -1,39 +1,34 @@
 import chisel3._
 import chisel3.simulator.scalatest.ChiselSim
 import chisel3.simulator.stimulus.{RunUntilFinished, RunUntilSuccess}
-import chisel3.util.Counter
 import org.scalatest.funspec.AnyFunSpec
+import scala.util.Random
 
+class MuxTest extends AnyFunSpec with ChiselSim {
 
-class MedianTest extends AnyFunSpec with ChiselSim {
+  val rnd = new Random()
 
-  def arrToDut(arr: Array[Int], dut: Median) = {
-    for (i <- 0 until 3) {
-      for (j <- 0 until 3) {
-        dut.arr(i)(j).poke(arr(i*3+j))
-      }
-    }
-  }
+  describe("Sync MUX") {
 
-  describe("Median") {
+    for (i <- 0 until 10) {
+      val x1 = rnd.between(0, 65536)  
+      val x2 = rnd.between(0, 65536) 
+      val addr = rnd.nextBoolean()
 
-    val base = (0 to 8).toArray
-    val arrays = (0 to 8).map(i => base.drop(i) ++ base.take(i))
-
-    for (arr <- arrays) {
-      it(s"test ${arr(0)+1}") {
-
-        simulateRaw(new Median) { dut =>
-          // Poke different values on the two input ports.
-          arrToDut(arr, dut)
-          // Expect that the sum of the two inputs is on the output port.
-          dut.med.expect(4)
+      it(s"test ${i+1}") {
+        simulateRaw(new SyncMux) { dut =>
+          dut.clr_n.poke(0)
+          dut.clk.step()
+          dut.clr_n.poke(1)
+          dut.x1.poke(x1)
+          dut.x2.poke(x2)
+          dut.addr.poke(addr.B)
+          dut.clk.step()
+          dut.y.expect(if (addr) x2 else x1)
         }
 
       }  
     }
 
   }
-
-
 }

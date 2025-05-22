@@ -1,0 +1,8 @@
+[error] /home/venser/bak-dip/chisel/testings/example/src/main/scala/syncMux.scala:13:8: value clock is not a member of SyncMux
+[error] did you mean clone?
+[error]   this.clock := clk
+[error]        ^
+[error] /home/venser/bak-dip/chisel/testings/example/src/main/scala/syncMux.scala:14:8: value reset is not a member of SyncMux
+[error]   this.reset := (~clr_n).asAsyncReset
+[error]        ^
+[error] two errors found
