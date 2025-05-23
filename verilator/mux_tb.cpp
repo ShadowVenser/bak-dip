@@ -1,60 +1,72 @@
 #include "VsyncMux.h"
 #include "verilated.h"
-#include "verilated_fst_c.h"
-#include <cstdlib>
-#include <ctime>
+#include "verilated_fst_c.h"  
 #include <iostream>
+#include <random>
 
-#define MAX_TIME 100
-#define CLOCK_PERIOD 2
-
+#define VL_TIME_PRECISION 1  // 1 пс
 vluint64_t main_time = 0;
 
-double sc_time_stamp() {
-    return main_time;
-}
+double sc_time_stamp() { return 0; }
+double VL_TIME() { return main_time; }
 
-int main(int argc, char **argv) {
+int main(int argc, char** argv) {
     Verilated::commandArgs(argc, argv);
-    Verilated::traceEverOn(true);
 
     VsyncMux* top = new VsyncMux;
-    VerilatedFstC* tfp = new VerilatedFstC;
-    top->trace(tfp, 99);
-    tfp->open("mux.fst");
+    Verilated::traceEverOn(true);
 
-    std::srand(std::time(nullptr));
+    VerilatedFstC* tfp = new VerilatedFstC;       
+    top->trace(tfp, 99, true);                      
+    tfp->open("mux.fst");                           
+
+    std::random_device rd;
+    std::mt19937 gen(rd());
+    std::uniform_int_distribution<> dist16(0, 65535);
+    std::uniform_int_distribution<> dist1(0, 1);
 
     top->clk = 0;
     top->clr_n = 0;
-    top->eval();
-    tfp->dump(main_time);
-    main_time += 5;
 
-    top->clr_n = 1; // снять сброс
+    top->eval();
+    tfp->dump(main_time); main_time += 5;
+
+    for (int i = 0; i < 2; ++i) {
+        top->clk = !top->clk;
+        top->eval();
+        tfp->dump(main_time); main_time += 5;
+    }
+
+    top->clr_n = 1;
+
     for (int i = 0; i < 10; ++i) {
-        uint16_t x1 = std::rand() % 65536;
-        uint16_t x2 = std::rand() % 65536;
-        uint8_t addr = std::rand() % 2;
+        top->clk = !top->clk;
+
+        unsigned int x1 = dist16(gen);
+        unsigned int x2 = dist16(gen);
+        unsigned int addr = dist1(gen);
 
         top->x1 = x1;
         top->x2 = x2;
         top->addr = addr;
 
-        for (int j = 0; j < CLOCK_PERIOD * 2; ++j) {
-            top->clk = !top->clk;
-            top->eval();
-            tfp->dump(main_time);
-            main_time += 5;
-        }
+        top->eval();
+        tfp->dump(main_time); main_time += 5;
 
-        std::cout << "x1=" << x1 << ", x2=" << x2 << ", addr=" << (int)addr 
-                  << " -> y=" << top->y << std::endl;
+        top->clk = !top->clk;
+        top->eval();
+        tfp->dump(main_time); main_time += 5;
+
+        assert((int)top->y == (addr ? x2 : x1));
+        std::cout << "test " << main_time << " - passed!" << std::endl;
     }
 
-    tfp->close();
-    delete top;
-    delete tfp;
+    top->eval();
+    tfp->dump(main_time); main_time += 5;
 
+    tfp->flush();
+    tfp->close();
+    delete tfp;
+    delete top;
     return 0;
 }

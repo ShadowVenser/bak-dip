@@ -1,0 +1,200 @@
+0< r ready
+1> S 0 0
+1< k ack
+2> S 1 1
+2< k ack
+3> S 2 2
+3< k ack
+4> S 3 3
+4< k ack
+5> S 4 4
+5< k ack
+6> S 5 5
+6< k ack
+7> S 6 6
+7< k ack
+8> S 7 7
+8< k ack
+9> S 8 8
+9< k ack
+10> R 0
+10< k ack
+11> G u 9
+11< b 00000008 04
+12> S 0 1
+12< k ack
+13> S 1 2
+13< k ack
+14> S 2 3
+14< k ack
+15> S 3 4
+15< k ack
+16> S 4 5
+16< k ack
+17> S 5 6
+17< k ack
+18> S 6 7
+18< k ack
+19> S 7 8
+19< k ack
+20> S 8 0
+20< k ack
+21> R 0
+21< k ack
+22> G u 9
+22< b 00000008 04
+23> S 0 2
+23< k ack
+24> S 1 3
+24< k ack
+25> S 2 4
+25< k ack
+26> S 3 5
+26< k ack
+27> S 4 6
+27< k ack
+28> S 5 7
+28< k ack
+29> S 6 8
+29< k ack
+30> S 7 0
+30< k ack
+31> S 8 1
+31< k ack
+32> R 0
+32< k ack
+33> G u 9
+33< b 00000008 04
+34> S 0 3
+34< k ack
+35> S 1 4
+35< k ack
+36> S 2 5
+36< k ack
+37> S 3 6
+37< k ack
+38> S 4 7
+38< k ack
+39> S 5 8
+39< k ack
+40> S 6 0
+40< k ack
+41> S 7 1
+41< k ack
+42> S 8 2
+42< k ack
+43> R 0
+43< k ack
+44> G u 9
+44< b 00000008 04
+45> S 0 4
+45< k ack
+46> S 1 5
+46< k ack
+47> S 2 6
+47< k ack
+48> S 3 7
+48< k ack
+49> S 4 8
+49< k ack
+50> S 5 0
+50< k ack
+51> S 6 1
+51< k ack
+52> S 7 2
+52< k ack
+53> S 8 3
+53< k ack
+54> R 0
+54< k ack
+55> G u 9
+55< b 00000008 04
+56> S 0 5
+56< k ack
+57> S 1 6
+57< k ack
+58> S 2 7
+58< k ack
+59> S 3 8
+59< k ack
+60> S 4 0
+60< k ack
+61> S 5 1
+61< k ack
+62> S 6 2
+62< k ack
+63> S 7 3
+63< k ack
+64> S 8 4
+64< k ack
+65> R 0
+65< k ack
+66> G u 9
+66< b 00000008 04
+67> S 0 6
+67< k ack
+68> S 1 7
+68< k ack
+69> S 2 8
+69< k ack
+70> S 3 0
+70< k ack
+71> S 4 1
+71< k ack
+72> S 5 2
+72< k ack
+73> S 6 3
+73< k ack
+74> S 7 4
+74< k ack
+75> S 8 5
+75< k ack
+76> R 0
+76< k ack
+77> G u 9
+77< b 00000008 04
+78> S 0 7
+78< k ack
+79> S 1 8
+79< k ack
+80> S 2 0
+80< k ack
+81> S 3 1
+81< k ack
+82> S 4 2
+82< k ack
+83> S 5 3
+83< k ack
+84> S 6 4
+84< k ack
+85> S 7 5
+85< k ack
+86> S 8 6
+86< k ack
+87> R 0
+87< k ack
+88> G u 9
+88< b 00000008 04
+89> S 0 8
+89< k ack
+90> S 1 0
+90< k ack
+91> S 2 1
+91< k ack
+92> S 3 2
+92< k ack
+93> S 4 3
+93< k ack
+94> S 5 4
+94< k ack
+95> S 6 5
+95< k ack
+96> S 7 6
+96< k ack
+97> S 8 7
+97< k ack
+98> R 0
+98< k ack
+99> G u 9
+99< b 00000008 04
+100> D

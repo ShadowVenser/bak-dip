@@ -1,9 +1,6 @@
-[0m[[0m[31merror[0m] [0m[0m/home/venser/bak-dip/chisel/testings/median_test/src/test/scala/MedianTest.scala:26:20: missing argument list for method simulateRaw in trait SimulatorAPI[0m
-[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
-[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `simulateRaw _` or `simulateRaw(_,_,_,_,_)(_)(_,_,_,_,_,_)` instead of `simulateRaw`.[0m
-[0m[[0m[31merror[0m] [0m[0m        simulateRaw(new Median).withAnnotations(Seq(WriteVcdAnnotation)) { dut =>[0m
-[0m[[0m[31merror[0m] [0m[0m                   ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/venser/bak-dip/chisel/testings/median_test/src/test/scala/MedianTest.scala:26:53: not found: value WriteVcdAnnotation[0m
-[0m[[0m[31merror[0m] [0m[0m        simulateRaw(new Median).withAnnotations(Seq(WriteVcdAnnotation)) { dut =>[0m
-[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/venser/bak-dip/chisel/testings/median_test/src/test/scala/MedianTest.scala:35:38: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int(4)[0m
+[0m[[0m[31merror[0m] [0m[0m required: scala.math.Ordering[?][0m
+[0m[[0m[31merror[0m] [0m[0m          val check_val = arr.sorted(4)[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

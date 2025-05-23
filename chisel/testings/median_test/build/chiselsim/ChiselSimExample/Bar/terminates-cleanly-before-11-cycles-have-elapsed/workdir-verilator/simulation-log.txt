@@ -1,1 +1,0 @@
-- /home/venser/bak-dip/chisel/testings/median_test/build/chiselsim/ChiselSimExample/Bar/terminates-cleanly-before-11-cycles-have-elapsed/primary-sources/../primary-sources/verification/Bar_Verification.sv:20: Verilog $finish
