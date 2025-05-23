@@ -53,12 +53,12 @@ module SyncMux(	// src/main/scala/syncMux.scala:4:7
 );
 
   wire        _asyncReset_T = ~clr_n;	// src/main/scala/syncMux.scala:13:21
-  reg  [15:0] y_reg;	// src/main/scala/syncMux.scala:18:24
+  reg  [15:0] out_value;	// src/main/scala/syncMux.scala:16:28
   always @(posedge clk or posedge _asyncReset_T) begin	// src/main/scala/syncMux.scala:5:18, :13:21
     if (_asyncReset_T)	// src/main/scala/syncMux.scala:5:18, :13:21
-      y_reg <= 16'h0;	// src/main/scala/syncMux.scala:18:24
+      out_value <= 16'h0;	// src/main/scala/syncMux.scala:16:28
     else	// src/main/scala/syncMux.scala:5:18
-      y_reg <= addr ? x2 : x1;	// src/main/scala/syncMux.scala:17:24, :18:24
+      out_value <= addr ? x2 : x1;	// src/main/scala/syncMux.scala:16:28, :17:21
   end // always @(posedge, posedge)
   `ifdef ENABLE_INITIAL_REG_	// src/main/scala/syncMux.scala:4:7
     `ifdef FIRRTL_BEFORE_INITIAL	// src/main/scala/syncMux.scala:4:7
@@ -71,15 +71,15 @@ module SyncMux(	// src/main/scala/syncMux.scala:4:7
       `endif // INIT_RANDOM_PROLOG_
       `ifdef RANDOMIZE_REG_INIT	// src/main/scala/syncMux.scala:4:7
         _RANDOM[/*Zero width*/ 1'b0] = `RANDOM;	// src/main/scala/syncMux.scala:4:7
-        y_reg = _RANDOM[/*Zero width*/ 1'b0][15:0];	// src/main/scala/syncMux.scala:4:7, :18:24
+        out_value = _RANDOM[/*Zero width*/ 1'b0][15:0];	// src/main/scala/syncMux.scala:4:7, :16:28
       `endif // RANDOMIZE_REG_INIT
       if (_asyncReset_T)	// src/main/scala/syncMux.scala:4:7, :13:21
-        y_reg = 16'h0;	// src/main/scala/syncMux.scala:18:24
+        out_value = 16'h0;	// src/main/scala/syncMux.scala:16:28
     end // initial
     `ifdef FIRRTL_AFTER_INITIAL	// src/main/scala/syncMux.scala:4:7
       `FIRRTL_AFTER_INITIAL	// src/main/scala/syncMux.scala:4:7
     `endif // FIRRTL_AFTER_INITIAL
   `endif // ENABLE_INITIAL_REG_
-  assign y = y_reg;	// src/main/scala/syncMux.scala:4:7, :18:24
+  assign y = out_value;	// src/main/scala/syncMux.scala:4:7, :16:28
 endmodule
 

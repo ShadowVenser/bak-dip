@@ -136,7 +136,7 @@ void VsvsimTestbench___024root____Vdpiexp_svsimTestbench__DOT__getBitsImpl_y_TOP
     VL_DEBUG_IF(VL_DBG_MSGF("+    VsvsimTestbench___024root____Vdpiexp_svsimTestbench__DOT__getBitsImpl_y_TOP\n"); );
     // Init
     // Body
-    value_y = vlSymsp->TOP.svsimTestbench__DOT__dut__DOT__y_reg;
+    value_y = vlSymsp->TOP.svsimTestbench__DOT__dut__DOT__out_value;
 }
 
 extern "C" int simulation_body();

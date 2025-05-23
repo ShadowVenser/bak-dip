@@ -1,28 +1,16 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(MuxTest, org.scalatest.tools.Framework$$anon$1@3a68ec63, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(NandTest, org.scalatest.tools.Framework$$anon$1@3a68ec63, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(MuxTest, org.scalatest.tools.Framework$$anon$1@5cf07c6e, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(NandTest, org.scalatest.tools.Framework$$anon$1@5cf07c6e, false, [SuiteSelector])[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mNandTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mNAND Gate[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- test 1[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- test 2[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- test 3[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- test 4[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Basic test[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mMuxTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mSync MUX[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- test 1[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- test 2[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- test 3[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- test 4[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- test 5[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- test 6[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- test 7[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- test 8[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- test 9[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- test 10[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 46 seconds, 786 milliseconds.[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 14[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Basic test[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 6 seconds, 224 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 2[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 14, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 2, failed 0, canceled 0, ignored 0, pending 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	NandTest[0m
 [0m[[0m[0mdebug[0m] [0m[0m	MuxTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	NandTest[0m

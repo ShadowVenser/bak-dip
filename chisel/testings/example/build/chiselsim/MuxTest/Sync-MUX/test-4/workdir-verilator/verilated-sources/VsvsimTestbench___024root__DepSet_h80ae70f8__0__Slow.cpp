@@ -201,7 +201,7 @@ VL_ATTR_COLD void VsvsimTestbench___024root___ctor_var_reset(VsvsimTestbench___0
     vlSelf->svsimTestbench__DOT__addr = VL_RAND_RESET_I(1);
     vlSelf->svsimTestbench__DOT__simulationState = 0;
     vlSelf->svsimTestbench__DOT__dut__DOT___asyncReset_T = VL_RAND_RESET_I(1);
-    vlSelf->svsimTestbench__DOT__dut__DOT__y_reg = VL_RAND_RESET_I(16);
+    vlSelf->svsimTestbench__DOT__dut__DOT__out_value = VL_RAND_RESET_I(16);
     for (int __Vi0 = 0; __Vi0 < 1; ++__Vi0) {
         vlSelf->svsimTestbench__DOT__dut__DOT__unnamedblk1__DOT___RANDOM[__Vi0] = VL_RAND_RESET_I(32);
     }

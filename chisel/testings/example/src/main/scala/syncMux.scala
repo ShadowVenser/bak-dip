@@ -11,13 +11,11 @@ class SyncMux extends RawModule {
   val y    = IO(Output(UInt(16.W)))
 
   val asyncReset = (~clr_n).asAsyncReset
-
   
   withClockAndReset(clk, asyncReset) {
-    val out_value = Mux(addr, x2, x1)
-    val y_reg = RegInit(0.U(16.W))
-    y_reg := out_value
-    y := y_reg
+    val out_value = RegInit(0.U(16.W))
+    out_value := Mux(addr, x2, x1)
+    y := out_value
   }
   
 }

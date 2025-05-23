@@ -27,7 +27,7 @@ class alignas(VL_CACHE_LINE_BYTES) VsvsimTestbench___024root final : public Veri
     CData/*0:0*/ __VactContinue;
     SData/*15:0*/ svsimTestbench__DOT__x1;
     SData/*15:0*/ svsimTestbench__DOT__x2;
-    SData/*15:0*/ svsimTestbench__DOT__dut__DOT__y_reg;
+    SData/*15:0*/ svsimTestbench__DOT__dut__DOT__out_value;
     IData/*31:0*/ svsimTestbench__DOT__simulationState;
     IData/*31:0*/ __Vtrigprevexpr___TOP__svsimTestbench__DOT__simulationState__0;
     IData/*31:0*/ __VactIterCount;

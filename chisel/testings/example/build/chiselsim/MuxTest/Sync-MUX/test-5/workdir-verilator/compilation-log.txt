@@ -36,7 +36,8 @@ simulation-driver.cpp:877:9: warning: structured bindings only available with �
   877 |   auto &[command, cycles] = state.outstandingCommand;
       |         ^
 Archive ar -rcs VsvsimTestbench__ALL.a VsvsimTestbench__ALL.o
-g++     c-dpi-bridge.o simulation-driver.o verilated.o verilated_dpi.o verilated_threads.o VsvsimTestbench__ALL.a    -pthread -lpthread -latomic   -o ../simulation
-rm VsvsimTestbench__ALL.verilator_deplist.tmp
-make[1]: выход из каталога «/home/venser/bak-dip/chisel/testings/example/build/chiselsim/MuxTest/Sync-MUX/test-5/workdir-verilator/verilated-sources»
-make: выход из каталога «/home/venser/bak-dip/chisel/testings/example/build/chiselsim/MuxTest/Sync-MUX/test-5/workdir-verilator»
+make[1]: *** [/usr/share/verilator/include/verilated.mk:278: verilated.o] Прерывание
+make[1]: *** Удаление промежуточного файла «VsvsimTestbench__ALL.verilator_deplist.tmp»
+%Error: Internal Error: ../V3Os.cpp:456: system(make -C verilated-sources -f VsvsimTestbench.mk -j 8) returned unexpected value of 2
+                        ... See the manual at https://verilator.org/verilator_doc.html for more assistance.
+make: *** [Makefile:12: simulation] Ошибка 1

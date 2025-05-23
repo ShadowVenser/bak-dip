@@ -1,13 +1,13 @@
-[debug] Packaging /home/venser/bak-dip/chisel/testings/example/target/scala-2.13/-name-_2.13-0.1.0.jar ...
-[debug] Input file mappings:
-[debug] 	SyncMux.class
-[debug] 	  /home/venser/bak-dip/chisel/testings/example/target/scala-2.13/classes/SyncMux.class
-[debug] 	Main$delayedInit$body.class
-[debug] 	  /home/venser/bak-dip/chisel/testings/example/target/scala-2.13/classes/Main$delayedInit$body.class
-[debug] 	NandGate.class
-[debug] 	  /home/venser/bak-dip/chisel/testings/example/target/scala-2.13/classes/NandGate.class
-[debug] 	Main$.class
-[debug] 	  /home/venser/bak-dip/chisel/testings/example/target/scala-2.13/classes/Main$.class
-[debug] 	Main.class
-[debug] 	  /home/venser/bak-dip/chisel/testings/example/target/scala-2.13/classes/Main.class
-[debug] Done packaging.
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/venser/bak-dip/chisel/testings/example/target/scala-2.13/-name-_2.13-0.1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SyncMux.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/venser/bak-dip/chisel/testings/example/target/scala-2.13/classes/SyncMux.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/venser/bak-dip/chisel/testings/example/target/scala-2.13/classes/Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	NandGate.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/venser/bak-dip/chisel/testings/example/target/scala-2.13/classes/NandGate.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/venser/bak-dip/chisel/testings/example/target/scala-2.13/classes/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/venser/bak-dip/chisel/testings/example/target/scala-2.13/classes/Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

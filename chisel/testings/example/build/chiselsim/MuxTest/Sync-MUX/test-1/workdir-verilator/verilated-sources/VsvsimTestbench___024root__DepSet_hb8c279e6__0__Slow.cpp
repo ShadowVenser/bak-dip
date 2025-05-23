@@ -19,11 +19,11 @@ VL_ATTR_COLD void VsvsimTestbench___024root___eval_initial__TOP(VsvsimTestbench_
     vlSelf->svsimTestbench__DOT__simulationState = 1U;
     vlSelf->svsimTestbench__DOT__dut__DOT__unnamedblk1__DOT___RANDOM[0U] 
         = VL_RANDOM_I();
-    vlSelf->svsimTestbench__DOT__dut__DOT__y_reg = 
-        (0xffffU & vlSelf->svsimTestbench__DOT__dut__DOT__unnamedblk1__DOT___RANDOM
-         [0U]);
+    vlSelf->svsimTestbench__DOT__dut__DOT__out_value 
+        = (0xffffU & vlSelf->svsimTestbench__DOT__dut__DOT__unnamedblk1__DOT___RANDOM
+           [0U]);
     if (vlSelf->svsimTestbench__DOT__dut__DOT___asyncReset_T) {
-        vlSelf->svsimTestbench__DOT__dut__DOT__y_reg = 0U;
+        vlSelf->svsimTestbench__DOT__dut__DOT__out_value = 0U;
     }
 }
 
