@@ -32,5 +32,5 @@ if (__name__ == "__main__"):
     
     nand = nandGate()
     mux = syncMux()
-    print(verilog.convert(nand, {nand.x1, nand.x2, nand.y}, name='nandGate'))
-    # print(verilog.convert(mux, {mux.x1, mux.x2, mux.y, mux.addr}, name='syncMux'))
+    # print(verilog.convert(nand, {nand.x1, nand.x2, nand.y}, name='nandGate'))
+    print(verilog.convert(mux, {mux.x1, mux.x2, mux.y, mux.addr}, name='SyncMux'))

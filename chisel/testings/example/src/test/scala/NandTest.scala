@@ -7,7 +7,7 @@ import org.scalatest.funspec.AnyFunSpec
 class NandTest extends AnyFunSpec with ChiselSim {
 
   describe("NAND Gate") {
-    it(s"Basic test") {
+    it(s"Basic NAND test") {
       simulateRaw(new NandGate) { dut =>
         for (i <- 0 until 4) {
           dut.x1.poke(i / 2)

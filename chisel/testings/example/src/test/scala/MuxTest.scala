@@ -9,7 +9,7 @@ class MuxTest extends AnyFunSpec with ChiselSim {
   val rnd = new Random()
 
   describe("Sync MUX") {
-    it(s"Basic test") {
+    it(s"Basic MUX test") {
       simulateRaw(new SyncMux) { dut =>
       for (i <- 0 until 10) {
         val x2 = rnd.between(0, 65536) 
