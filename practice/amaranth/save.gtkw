@@ -1,0 +1,62 @@
+[*]
+[*] GTKWave Analyzer v3.3.116 (w)1999-2023 BSI
+[*] Wed May 28 05:41:14 2025
+[*]
+[dumpfile] "/home/venser/bak-dip/practice/amaranth/median.vcd"
+[dumpfile_mtime] "Wed May 28 05:38:36 2025"
+[dumpfile_size] 13988
+[savefile] "/home/venser/bak-dip/practice/amaranth/save.gtkw"
+[timestart] 629
+[size] 1920 1033
+[pos] -1961 -10
+*-6.000000 1047 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] bench.
+[treeopen] bench.top.
+[treeopen] bench.top.init_fifo.
+[treeopen] bench.top.low_fifo.
+[sst_width] 278
+[signals_width] 179
+[sst_expanded] 1
+[sst_vpaned_height] 284
+@24
+bench.top.init_fifo.\memory[0][7:0]
+bench.top.init_fifo.\memory[1][7:0]
+bench.top.init_fifo.\memory[2][7:0]
+bench.top.init_fifo.\memory[3][7:0]
+bench.top.init_fifo.\memory[4][7:0]
+bench.top.init_fifo.\memory[5][7:0]
+bench.top.init_fifo.\memory[6][7:0]
+bench.top.init_fifo.\memory[7][7:0]
+bench.top.init_fifo.\memory[8][7:0]
+bench.top.clk
+@28
+bench.top.fsm_state
+@24
+bench.top.fifo_counter[3:0]
+bench.top.init_fifo.memory.memory_r_addr[3:0]
+bench.top.init_fifo.memory.memory_r_data[7:0]
+bench.top.init_fifo.memory.memory_r_en
+bench.top.low_fifo.\memory[0][7:0]
+bench.top.low_fifo.\memory[1][7:0]
+bench.top.low_fifo.\memory[2][7:0]
+bench.top.low_fifo.\memory[3][7:0]
+bench.top.low_fifo.\memory[4][7:0]
+bench.top.low_fifo.\memory[5][7:0]
+bench.top.low_fifo.\memory[6][7:0]
+bench.top.low_fifo.\memory[7][7:0]
+bench.top.low_fifo.\memory[8][7:0]
+bench.top.total[3:0]
+bench.top.index[3:0]
+bench.top.offset[3:0]
+@25
+bench.top.high_fifo.\memory[0][7:0]
+bench.top.high_fifo.\memory[1][7:0]
+bench.top.high_fifo.\memory[2][7:0]
+bench.top.high_fifo.\memory[3][7:0]
+bench.top.high_fifo.\memory[4][7:0]
+bench.top.high_fifo.\memory[5][7:0]
+bench.top.high_fifo.\memory[6][7:0]
+bench.top.high_fifo.\memory[7][7:0]
+bench.top.high_fifo.\memory[8][7:0]
+[pattern_trace] 1
+[pattern_trace] 0

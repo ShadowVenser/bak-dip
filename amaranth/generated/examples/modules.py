@@ -35,7 +35,7 @@ class syncMux(wiring.Component):
             ResetSignal("sync").eq(~self.clr_n)
         ]
 
-        dut.d.sync += self.y.eq(Mux(self.addr, self.x2, self.x1))
+        dut.d.sync += self.y.eq(Mux(self.addr, self.x2.word_select(self.x1, 2), self.x1))
 
         return dut
 
